@@ -1,0 +1,252 @@
+
+<!doctype html>
+<html lang="sv">
+<head>
+<link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Villa Liljero</title>
+<meta name="google-site-verification" content="tlM3-EkIrPYTu1rxlWZvU-Bs-ftGFNH1nR0ozC8lFN0" />
+</head>
+  <body>
+
+    <div class="rightsidebar"></div>
+
+ 
+
+    
+    
+    <div id="root"></div>
+
+
+
+
+  <button class="icon" onclick="myFunction()" id="menuButton">
+    Öppna/Stäng meny ☰
+</button>
+
+
+<div class="framåtbakåtknappar" id="ändrafärg">
+
+    <button id="previousPage" class="framåtbakåtknapp" onclick="previousPage()">
+        ← Förra sidan
+    </button>
+
+    <button id="nextPage" class="framåtbakåtknapp" onclick="nextPage()">
+        Nästa sida →
+    </button>
+
+</div>
+
+
+
+
+<div class="language-dropdown">
+
+    <button class="language-button" onclick="toggleLanguageMenu()">
+
+        <img id="currentFlag" src=sweden.png>
+        <span id="currentLanguage">Svenska</span>
+
+        <span class="arrow">▼</span>
+
+    </button>
+
+
+    <div class="language-menu" id="languageMenu">
+
+        <div onclick="changeLanguage('sv','sweden.png','Svenska')">
+            <img src="sweden.png">
+            Svenska
+        </div>
+
+
+        <div onclick="changeLanguage('en','uk.png','English')">
+            <img src="uk.png">
+            English
+        </div>
+
+
+        <div onclick="changeLanguage('de','germany.png','Deutsch')">
+            <img src="germany.png">
+            Deutsch
+        </div>
+
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+    <header class="headerpanel">
+      <a href="#" onclick="navigate('hem')" data-discover="true" ><h1 class="hemsidetitel">Villa Liljero</h1></a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+    
+     
+      
+      
+      
+      
+  
+      
+      <nav class="topnav">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
+        <ul id="myLinks">
+    
+  <li> <a id="hem" href="#" onclick="navigate('hem')"  class="nav-link activeclass" data-discover="true">Hem</a></li>
+     
+    <li> <a id="kontakt" href="#" onclick="navigate('kontakt')" data-discover="true" class="nav-link">Kontakt</a> </li>
+      
+   <li> <a id="airbnb" href="#" onclick="navigate('airbnb')" data-discover="true" class="nav-link">AirBnB</a> </li> 
+    
+   <li> <a id="blog" href="#" onclick="navigate('blog')" data-discover="true" class="nav-link">Blogg</a> </li>
+
+  
+   <li> <a id="review" href="#" onclick="navigate('review')" data-discover="true" class="nav-link">Galleri & läge</a> </li>
+
+
+  </ul>
+
+  </nav>
+ 
+</div>
+
+
+
+  <div class="elfsight-app-90539be3-6ba4-45b3-8486-6bc17913fea7" title="översättning" data-elfsight-app-lazy></div>
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+</header>
+
+<a href="#" onclick="navigate('hem')" data-discover="true" ><video class="logga1" autoplay muted loop playsinline style="object-fit:cover;" onclick="togglePlay(this)">
+ 
+<source src="logga1.mp4" type="video/mp4" title="logotyp">
+  Din webbläsare stödjer inte video.
+  Din webbläsare stödjer inte ljud.
+</video></a>
+
+
+
+
+
+<a href="#"><img src="uparrow.png" class="scrolltotoparrow" title="Klicka för att gå till toppen av sidan" id="scrolltotoparrow" class="active"></a>
+<img src="downarrow.png" class="scrolltobottomarrow" class=active onclick="scrollToBottomArrow()" id="srolltobottomarrow" title="Klicka för att gå till botten av sidan">
+
+<audio id="audioFile" loop>
+  <source src="vindbris.mp4" type="audio/mp4">
+  Din webbläsare stödjer inte ljud.
+</audio>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="content">
+  <h1 class="välkomsttext">Varmt välkommen till stugan Villa Liljero!</h1>
+  <p class="indexcitat"><em>"Denna stuga ger en naturnära, skön, ostörd och lugn vistelse ute på landet."</em><br>
+- Besökare </p>
+
+<img src="indexbild1.jpg" class="indexbild1" alt="" title="skog och vatten">
+<img src="indexbild2.jpeg" class="indexbild2" alt="" title="landskap">
+<img src="indexbild3.jpg" class="indexbild3" alt="">
+
+<div class="sun"></div>
+
+<!-- Elfsight Weather | Untitled Weather -->
+<div class="elfsight-app-4f41a36a-b7e8-4a2b-a663-680f49514741" data-elfsight-app-lazy title="vädervisning"></div>
+
+</div>
+
+
+
+
+<script src="omdömesröstning.js"></script>
+    <script src="skroll.js"></script>
+    <script src="startaochpausafilm.js"></script>
+    <script src="startaochpausaljud.js"></script>
+    <script src="https://elfsightcdn.com/platform.js" async></script>
+<script type="text/javascript" src="https://cdn.weglot.com/weglot.min.js" title="översättning mellan engelska och svenska"></script>
+<script src="mobilvymeny.js"></script>
+<script src="mobilvyskrollning.js"></script>
+<script src="väder.js"></script>
+<script src="språköversättare.js"></script>
+<script src="script.js"></script>
+<script src="framåtbakåtknappar.js"></script>
+<script src="framåtbakåtknappmarkering.js"></script>
+<script src="snabbapåladdning.js"></script>
+<script src="ändrabakgrund.js"></script>
+
+
+  </body>
+</html>
