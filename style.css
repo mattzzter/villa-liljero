@@ -1954,7 +1954,7 @@ margin-top:1em;
 
 /*IPhone se*/
 
-@media (width:375px) {
+@media (max-width:375px) {
 
 
 
