@@ -1933,6 +1933,10 @@ map-responsive iframe {
 margin-top:20em;
 }
 
+#myLinks.show li {
+top:-10em;
+}  
+
 }
 
 
@@ -2029,9 +2033,8 @@ top:35em;
 
 /*rätt höjd på menyn i mobilvy*/
 
-#mylinks.show li {
-top:10em;
-z-index:999;
+#myLinks.show li {
+top:-10em;
 }
 
 
