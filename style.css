@@ -2015,6 +2015,7 @@ top:9em;
         width: 80%;
         text-align: center;
         top:10em;
+      position:relative;
     
     
 
@@ -2022,7 +2023,7 @@ top:9em;
 
   li {
 top:35em;
-  
+  position:relative;
   }
 
 
