@@ -2029,8 +2029,9 @@ top:35em;
 
 /*rätt höjd på menyn i mobilvy*/
 
-#myLinks.show li {
-top:-10em;
+#mylinks.show li {
+top:10em;
+z-index:999;
 }
 
 
