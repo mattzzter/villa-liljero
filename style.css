@@ -1727,7 +1727,7 @@ flex: 0 0 300px;
 
 
 
-/* ha menyikon i högra hörnet på mobiler oc h Ipad */
+/* ha menyikon i högra hörnet på mobiler och Ipad */
 
 header{
     position:relative;
@@ -1979,7 +1979,7 @@ top:9em;
     display: none;
     position: fixed;
     inset: 0;
-    top:0em;
+    top:5em;
     left:0;
     width: 100vw;
     height: 100vh;
@@ -2020,7 +2020,7 @@ top:9em;
   }
 
   li {
-top:25em;
+top:35em;
   }
 
 
