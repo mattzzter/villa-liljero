@@ -1977,7 +1977,7 @@ top:9em;
 
  #myLinks {
     display: none;
-    position: sticky;
+    position: static;
     inset: 0;
     top:5em;
     left:0;
