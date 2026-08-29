@@ -1,4 +1,11 @@
 function navigate(page) {
+  const pages = ['hem', 'kontakt', 'airbnb', 'blogg', 'review'];
+
+  if (pages.includes(page)) {
+      localStorage.setItem('villaLiljeroLastPage', page);
+      window.currentPage = page;
+  }
+
   const content = document.getElementById('content');
       content.innerHTML = '<h1>Varmt välkomna till stugan Villa Liljero!</h1>';
    
@@ -78,13 +85,6 @@ function navigate(page) {
 
 
 
-
-
-document.querySelectorAll('a').forEach(link => {
-  link.addEventListener('click', () => {
-    link.classList.add('clicked');
-  });
-});
 
 
 
