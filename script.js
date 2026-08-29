@@ -6,8 +6,7 @@ function navigate(page) {
       window.currentPage = page;
   }
 
-  const content = document.getElementById('content');
-      content.innerHTML = '<h1>Varmt välkomna till stugan Villa Liljero!</h1>';
+  
    
 
 
