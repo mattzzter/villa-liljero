@@ -14,10 +14,3 @@ nextPage.addEventListener("click", function () {
 
 
 
-
-
-
-function previousPage() {
-  document.getElementById("ändrafärg").style.backgroundColor = "skyblue";
-}
-
