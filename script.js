@@ -1,5 +1,5 @@
 function navigate(page) {
-  const pages = ['hem', 'kontakt', 'airbnb', 'blog', 'review'];
+  const pages = ['hem', 'kontakt', 'airbnb', 'blogg', 'review'];
 
   if (pages.includes(page)) {
       localStorage.setItem('villaLiljeroLastPage', page);
