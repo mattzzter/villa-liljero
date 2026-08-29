@@ -20,7 +20,7 @@ function navigate(page) {
     
     document.getElementById('kontakt').classList.remove('activeclass');
     document.getElementById('airbnb').classList.remove('activeclass');
-    document.getElementById('blog').classList.remove('activeclass');
+    document.getElementById('blogg').classList.remove('activeclass');
     document.getElementById('review').classList.remove('activeclass');
 
 
@@ -29,7 +29,7 @@ function navigate(page) {
     document.getElementById('hem').classList.remove('activeclass');
     document.getElementById('kontakt').classList.add('activeclass');
     document.getElementById('airbnb').classList.remove('activeclass');
-    document.getElementById('blog').classList.remove('activeclass');
+    document.getElementById('blogg').classList.remove('activeclass');
     document.getElementById('review').classList.remove('activeclass');
 
   } else if (page === 'airbnb') {
@@ -37,19 +37,19 @@ function navigate(page) {
     document.getElementById('hem').classList.remove('activeclass');
     document.getElementById('kontakt').classList.remove('activeclass');
     document.getElementById('airbnb').classList.add('activeclass');
-    document.getElementById('blog').classList.remove('activeclass');
+    document.getElementById('blogg').classList.remove('activeclass');
     document.getElementById('review').classList.remove('activeclass');
 
 
   } 
 
 
-   else if (page === 'blog') {
+   else if (page === 'blogg') {
     content.innerHTML = '<h1>Blogg</h1>  <div class="sun"></div>  <main class="content"> <section class="blogg-post"> <h2 class="förstadagen">11 juni 2026</h2> <p class="datumett">Här kan den som äger hemsidan lägga in nyheter, uppdateringar eller artiklar.</p> </section> <section class="blogg-post"> <h2 class="andradagen">18 juni 2026</h2> <p class="datumtvå">Varje nytt inlägg kan läggas till som en ny sektion eller i en lista nedan.</p> </section> <img src="bloggbild1.jpeg" class="bloggbild1" alt=""> <img src="bloggbild2.jpeg" class="bloggbild2" alt=""></main>';
     document.getElementById('hem').classList.remove('activeclass');
     document.getElementById('kontakt').classList.remove('activeclass');
     document.getElementById('airbnb').classList.remove('activeclass');
-    document.getElementById('blog').classList.add('activeclass');
+    document.getElementById('blogg').classList.add('activeclass');
     document.getElementById('review').classList.remove('activeclass');
 
   }
@@ -68,7 +68,7 @@ function navigate(page) {
     document.getElementById('hem').classList.remove('activeclass');
     document.getElementById('kontakt').classList.remove('activeclass');
     document.getElementById('airbnb').classList.remove('activeclass');
-    document.getElementById('blog').classList.remove('activeclass');
+    document.getElementById('blogg').classList.remove('activeclass');
         document.getElementById('review').classList.add('activeclass');
 
 }
