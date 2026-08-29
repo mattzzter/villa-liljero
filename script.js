@@ -13,7 +13,7 @@ function navigate(page) {
     
     document.getElementById('kontakt').classList.remove('activeclass');
     document.getElementById('airbnb').classList.remove('activeclass');
-    document.getElementById('blog').classList.remove('activeclass');
+    document.getElementById('blogg').classList.remove('activeclass');
     document.getElementById('review').classList.remove('activeclass');
 
 
@@ -22,7 +22,7 @@ function navigate(page) {
     document.getElementById('hem').classList.remove('activeclass');
     document.getElementById('kontakt').classList.add('activeclass');
     document.getElementById('airbnb').classList.remove('activeclass');
-    document.getElementById('blog').classList.remove('activeclass');
+    document.getElementById('blogg').classList.remove('activeclass');
     document.getElementById('review').classList.remove('activeclass');
 
   } else if (page === 'airbnb') {
@@ -30,7 +30,7 @@ function navigate(page) {
     document.getElementById('hem').classList.remove('activeclass');
     document.getElementById('kontakt').classList.remove('activeclass');
     document.getElementById('airbnb').classList.add('activeclass');
-    document.getElementById('blog').classList.remove('activeclass');
+    document.getElementById('blogg').classList.remove('activeclass');
     document.getElementById('review').classList.remove('activeclass');
 
 
@@ -42,7 +42,7 @@ function navigate(page) {
     document.getElementById('hem').classList.remove('activeclass');
     document.getElementById('kontakt').classList.remove('activeclass');
     document.getElementById('airbnb').classList.remove('activeclass');
-    document.getElementById('blog').classList.add('activeclass');
+    document.getElementById('blogg').classList.add('activeclass');
     document.getElementById('review').classList.remove('activeclass');
 
   }
@@ -61,7 +61,7 @@ function navigate(page) {
     document.getElementById('hem').classList.remove('activeclass');
     document.getElementById('kontakt').classList.remove('activeclass');
     document.getElementById('airbnb').classList.remove('activeclass');
-    document.getElementById('blog').classList.remove('activeclass');
+    document.getElementById('blogg').classList.remove('activeclass');
         document.getElementById('review').classList.add('activeclass');
 
 }
