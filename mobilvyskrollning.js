@@ -34,7 +34,7 @@ function myFunction() {
 
 
 document.querySelectorAll("#myLinks a").forEach(link => {
-    link.addEventListener("click", () => {
+    link.addEventListener("click", (event) => {
      event.preventDefault();
         document.getElementById("myLinks").classList.remove("show");
 
