@@ -22,6 +22,12 @@ function myFunction() {
 
 
 
+link.addEventListener("click", (event) => {
+    event.preventDefault();
+
+    document.getElementById("myLinks").classList.remove("show");
+    ...
+});
 
 
 
