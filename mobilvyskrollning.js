@@ -22,12 +22,7 @@ function myFunction() {
 
 
 
-link.addEventListener("click", (event) => {
-    event.preventDefault();
 
-    document.getElementById("myLinks").classList.remove("show");
-    ...
-});
 
 
 
@@ -40,7 +35,7 @@ link.addEventListener("click", (event) => {
 
 document.querySelectorAll("#myLinks a").forEach(link => {
     link.addEventListener("click", () => {
-
+     event.preventDefault();
         document.getElementById("myLinks").classList.remove("show");
 
         const button = document.querySelector(".icon");
